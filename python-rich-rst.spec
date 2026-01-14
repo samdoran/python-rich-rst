@@ -45,7 +45,7 @@ Summary:        %{summary}
 
 
 %files -n python3-rich-rst -f %{pyproject_files}
-
+%license LICENSE
 
 %changelog
 %autochangelog
