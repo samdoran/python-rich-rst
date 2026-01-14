@@ -37,7 +37,12 @@ srpm:
 .PHONY: build
 build: srpm
 	copr build $(NAME) $(NAME)*.src.rpm \
+		--chroot fedora-43-aarch64 \
 		--chroot fedora-43-x86_64 \
+		--chroot fedora-rawhide-aarch64 \
+		--chroot fedora-rawhide-i386 \
+		--chroot fedora-rawhide-ppc64le \
+		--chroot fedora-rawhide-s390x \
 		--chroot fedora-rawhide-x86_64
 
 .PHONY: logs
