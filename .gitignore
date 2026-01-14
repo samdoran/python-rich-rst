@@ -1,0 +1,4 @@
+*.crate
+*.tar.gz
+*.src.rpm
+*.noarch.rpm
