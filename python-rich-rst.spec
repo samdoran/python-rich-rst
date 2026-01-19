@@ -27,7 +27,7 @@ Summary:        %{summary}
 
 
 %generate_buildrequires
-%pyproject_buildrequires -x docs
+%pyproject_buildrequires
 
 
 %build
@@ -46,7 +46,7 @@ Summary:        %{summary}
 
 %files -n python3-rich-rst -f %{pyproject_files}
 %license LICENSE
-%doc README.md
+%doc README.md CHANGELOG.md
 
 %changelog
 %autochangelog
