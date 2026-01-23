@@ -20,7 +20,6 @@ A beautiful reStructuredText renderer for rich.}
 Summary:        %{summary}
 
 %description -n python3-rich-rst %_description
-%pyproject_extras_subpkg -n python3-rich-rst docs
 
 %prep
 %autosetup -p1 -n rich_rst-%{version}
